@@ -1,0 +1,32 @@
+﻿Build started 05.03.2018 3:49:47.
+     1>Project "D:\jbmod\props\props.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\props.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+       InitializeBuildStatus:
+         Creating "Release\props.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\source2006\game_shared /ID:\source2006\dlls /ID:\source2006\public\tier1 /ID:\source2006\public\tier0 /ID:\source2006\public /ID:\source2006\common /ID:\source2006\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt extern.cpp plugin.cpp sigscan.cpp
+         extern.cpp
+         plugin.cpp
+         sigscan.cpp
+     1>sigscan.cpp(15): warning C4018: <: несоответствие типов со знаком и без знака
+     1>sigscan.cpp(18): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Steam\steamapps\common\Source SDK Base\bin\props.dll" /NOLOGO /LIBPATH:D:\source2006\lib\public mathlib.lib vstdlib.lib tier0.lib tier1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\props.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Steam\steamapps\common\Source SDK Base\bin\props.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Steam\steamapps\common\Source SDK Base\bin\props.lib" /MACHINE:X86 /DLL Release\extern.obj
+         Release\plugin.obj
+         Release\sigscan.obj
+            Создается библиотека ..\..\Steam\steamapps\common\Source SDK Base\bin\props.lib и объект ..\..\Steam\steamapps\common\Source SDK Base\bin\props.exp
+         Создание кода
+         Создание кода завершено
+         props.vcxproj -> D:\jbmod\props\..\..\Steam\steamapps\common\Source SDK Base\bin\props.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\Steam\steamapps\common\Source SDK Base\bin\props.dll;#2" /manifest Release\props.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\props.unsuccessfulbuild".
+         Touching "Release\props.lastbuildstate".
+     1>Done Building Project "D:\jbmod\props\props.vcxproj" (rebuild target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:03.88
